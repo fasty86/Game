@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0838f10c-b675-48aa-907f-28184abd30bb" name="Default Changelist" comment="" />
+    <list default="true" id="0838f10c-b675-48aa-907f-28184abd30bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1W149SrOEKUCOkItApMWDUnzQa8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -72,6 +79,11 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1014" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578501717976">
       <screen x="0" y="0" width="2560" height="1040" />
@@ -81,6 +93,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="276" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1578501906893" />
+    <state x="1161" y="414" width="260" height="211" key="Github.ShareDialog" timestamp="1578502500546">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1161" y="414" width="260" height="211" key="Github.ShareDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1578502500546" />
     <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1578303711894">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -97,17 +113,21 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1578303711894" />
-    <state x="781" y="163" key="SettingsEditor" timestamp="1578501871979">
+    <state x="781" y="163" key="SettingsEditor" timestamp="1578502469616">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="781" y="163" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1578501871979" />
+    <state x="781" y="163" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1578502469616" />
+    <state x="872" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578502240809">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1578502240809" />
     <state x="92" y="92" width="2376" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1578501552801">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1578501552801" />
-    <state x="976" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578492375751">
+    <state x="976" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578942482274">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="976" y="345" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1578492375751" />
+    <state x="976" y="345" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1578942482274" />
   </component>
 </project>

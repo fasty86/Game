@@ -1,13 +1,47 @@
 import cs50
 
-test = []
-for i in range(3):
-    test.append(cs50.get_string("Input something: "))
-popped = test.pop(-1)
-print(test)
-print(f"some example : {popped=}")
-test.insert(1, 'koko')
-print(test)
-remove = cs50.get_string("to delete: ")
-test.remove(remove)
-print(test)
+str = '{
+   "symbol": "NFLX",
+   "companyName": "Netflix, Inc.",
+   "primaryExchange": "NASDAQ",
+   "calculationPrice": "close",
+   "open": 317.49,
+   "openTime": 1564752600327,
+   "close": 318.83,
+   "closeTime": 1564776000616,
+   "high": 319.41,
+   "low": 311.8,
+   "latestPrice": 318.83,
+   "latestSource": "Close",
+   "latestTime": "August 2, 2019",
+   "latestUpdate": 1564776000616,
+   "latestVolume": 6232279,
+   "iexRealtimePrice": null,
+   "iexRealtimeSize": null,
+   "iexLastUpdated": null,
+   "delayedPrice": 318.83,
+   "delayedPriceTime": 1564776000616,
+   "extendedPrice": 319.37,
+   "extendedChange": 0.54,
+   "extendedChangePercent": 0.00169,
+   "extendedPriceTime": 1564876784244,
+   "previousClose": 319.5,
+   "previousVolume": 6563156,
+   "change": -0.67,
+   "changePercent": -0.0021,
+   "volume": 6232279,
+   "iexMarketPercent": null,
+   "iexVolume": null,
+   "avgTotalVolume": 7998833,
+   "iexBidPrice": null,
+   "iexBidSize": null,
+   "iexAskPrice": null,
+   "iexAskSize": null,
+   "marketCap": 139594933050,
+   "peRatio": 120.77,
+   "week52High": 386.79,
+   "week52Low": 231.23,
+   "ytdChange": 0.18907500000000002,
+   "lastTradeTime": 1564776000616
+}'
+print(str.json())
